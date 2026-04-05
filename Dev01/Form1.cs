@@ -30,5 +30,16 @@ namespace Dev01
             int Restar = a + b;
             textBox2.Text = Restar.ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = 10;
+            int b = 5;
+
+
+
+            int Multiplicar = a + b;
+            textBox3.Text = Multiplicar.ToString();
+        }
     }
 }
