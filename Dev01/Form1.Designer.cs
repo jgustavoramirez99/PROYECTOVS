@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            checkBox1 = new CheckBox();
             textBox1 = new TextBox();
+            button2 = new Button();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -39,19 +40,9 @@
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Sumar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(216, 101);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(82, 19);
-            checkBox1.TabIndex = 1;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -60,13 +51,31 @@
             textBox1.Size = new Size(326, 23);
             textBox1.TabIndex = 2;
             // 
+            // button2
+            // 
+            button2.Location = new Point(223, 126);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "Restar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(311, 129);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(322, 23);
+            textBox2.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(902, 465);
+            Controls.Add(textBox2);
+            Controls.Add(button2);
             Controls.Add(textBox1);
-            Controls.Add(checkBox1);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
@@ -77,7 +86,8 @@
         #endregion
 
         private Button button1;
-        private CheckBox checkBox1;
         private TextBox textBox1;
+        private Button button2;
+        private TextBox textBox2;
     }
 }
