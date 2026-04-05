@@ -38,7 +38,7 @@ namespace Dev01
 
 
 
-            int Multiplicar = a + b;
+            int Multiplicar = a * b;
             textBox3.Text = Multiplicar.ToString();
         }
     }
